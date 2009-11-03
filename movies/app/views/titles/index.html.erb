@@ -1,0 +1,22 @@
+<h1>Listing titles</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Year</th>
+  </tr>
+
+<% @titles.each do |title| %>
+  <tr>
+    <td><%=h title.name %></td>
+    <td><%=h title.year %></td>
+    <td><%= link_to 'Show', title %></td>
+    <td><%= link_to 'Edit', edit_title_path(title) %></td>
+    <td><%= link_to 'Destroy', title, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New title', new_title_path %>

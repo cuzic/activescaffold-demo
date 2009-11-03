@@ -1,0 +1,2205 @@
+/!\ FAILSAFE /!\  Tue Nov 03 14:03:19 +0900 2009
+  Status: 500 Internal Server Error
+  FATAL:  �f�[�^�x�[�X"movies"�͑��݂��܂���
+
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [4;35;1mSQL (47.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTitles (20091103050219)
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mCREATE TABLE "titles" ("id" serial primary key, "name" character varying(255), "year" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091103050219')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:04:27) [GET]
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" [0m
+Rendering template within layouts/titles
+Rendering titles/index
+Completed in 328ms (View: 312, DB: 0) | 200 OK [http://localhost/titles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#new (for 127.0.0.1 at 2009-11-03 14:04:30) [GET]
+Rendering template within layouts/titles
+Rendering titles/new
+Completed in 94ms (View: 47, DB: 0) | 200 OK [http://localhost/titles/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#create (for 127.0.0.1 at 2009-11-03 14:04:39) [POST]
+  Parameters: {"commit"=>"Create", "title"=>{"name"=>"ターミネーター", "year"=>"1984"}, "authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E="}
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "titles" ("name", "created_at", "updated_at", "year") VALUES(E'ターミネーター', '2009-11-03 05:04:39.233875', '2009-11-03 05:04:39.233875', 1984) RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/titles/1
+Completed in 32ms (DB: 0) | 302 Found [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#show (for 127.0.0.1 at 2009-11-03 14:04:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 1) [0m
+Rendering template within layouts/titles
+Rendering titles/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:04:41) [GET]
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" [0m
+Rendering template within layouts/titles
+Rendering titles/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#show (for 127.0.0.1 at 2009-11-03 14:04:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 1) [0m
+Rendering template within layouts/titles
+Rendering titles/show
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/titles/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:04:53) [GET]
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" [0m
+Rendering template within layouts/titles
+Rendering titles/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit (for 127.0.0.1 at 2009-11-03 14:04:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 1) [0m
+Rendering template within layouts/titles
+Rendering titles/edit
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://localhost/titles/1/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:04:56) [GET]
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" [0m
+Rendering template within layouts/titles
+Rendering titles/index
+Completed in 32ms (View: 0, DB: 0) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#destroy (for 127.0.0.1 at 2009-11-03 14:04:59) [DELETE]
+  Parameters: {"authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E=", "id"=>"1"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 1) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTitle Destroy (0.0ms)[0m   [0;1mDELETE FROM "titles" WHERE "id" = 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/titles
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/titles/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:04:59) [GET]
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" [0m
+Rendering template within layouts/titles
+Rendering titles/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:07:51) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (172.0ms)
+Rendered _list_column_headings (16.0ms)
+Rendered _messages (0.0ms)
+Rendered _list (47.0ms)
+Completed in 344ms (View: 281, DB: 0) | 200 OK [http://localhost/titles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#new (for 127.0.0.1 at 2009-11-03 14:07:55) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter"}
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form (31.0ms)
+Rendered _create_form (47.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (16.0ms)
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/new?_method=get&adapter=_list_inline_adapter]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#create (for 127.0.0.1 at 2009-11-03 14:08:01) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E=", "record"=>{"name"=>"ターミネーター", "year"=>"1984"}}
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "titles" ("name", "created_at", "updated_at", "year") VALUES(E'ターミネーター', '2009-11-03 05:08:01.016250', '2009-11-03 05:08:01.016250', 1984) RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Rendering on_create
+Rendered _list_actions (0.0ms)
+Rendered _list_record (625.0ms)
+Rendered _messages (0.0ms)
+Completed in 672ms (View: 672, DB: 0) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#show (for 127.0.0.1 at 2009-11-03 14:08:06) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"2"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 2) [0m
+Rendered _show_columns (0.0ms)
+Rendered _show (15.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (16.0ms)
+Completed in 156ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/2?_method=get&adapter=_list_inline_adapter]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:08:09) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 2) [0m
+Rendered _list_actions (0.0ms)
+Rendered _list_record (15.0ms)
+Completed in 46ms (View: 46, DB: 0) | 200 OK [http://localhost/titles/row/2?_method=get]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#destroy (for 127.0.0.1 at 2009-11-03 14:08:16) [DELETE]
+  Parameters: {"authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E=", "id"=>"2"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 2) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mTitle Destroy (0.0ms)[0m   [0;1mDELETE FROM "titles" WHERE "id" = 2[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Rendering destroy
+Rendered _messages (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/titles/destroy/2?_method=delete&authenticity_token=xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E%3D]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#show (for 127.0.0.1 at 2009-11-03 14:08:16) [GET]
+  Parameters: {"id"=>"update_table", "page"=>"1"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Title with ID=update_table):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:08:31) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (0.0ms)
+Rendered _list_column_headings (31.0ms)
+Rendered _messages (15.0ms)
+Rendered _list (46.0ms)
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:09:16) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (0.0ms)
+Rendered _list_column_headings (16.0ms)
+Rendered _messages (0.0ms)
+Rendered _list (32.0ms)
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://localhost/titles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#new (for 127.0.0.1 at 2009-11-03 14:09:20) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter"}
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form (15.0ms)
+Rendered _create_form (31.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (16.0ms)
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/new?_method=get&adapter=_list_inline_adapter]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#create (for 127.0.0.1 at 2009-11-03 14:09:28) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E=", "record"=>{"name"=>"ターミネーター", "year"=>"1984"}}
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "titles" ("name", "created_at", "updated_at", "year") VALUES(E'ターミネーター', '2009-11-03 05:09:28.641250', '2009-11-03 05:09:28.641250', 1984) RETURNING "id"[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mCOMMIT[0m
+Rendering on_create
+Rendered _list_actions (16.0ms)
+Rendered _list_record (16.0ms)
+Rendered _messages (0.0ms)
+Completed in 109ms (View: 78, DB: 16) | 200 OK [http://localhost/titles/create]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTitles (20091103050219)
+Migrating to CreateProducts (20091103051017)
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (46.0ms)[0m   [0;1mCREATE TABLE "products" ("id" serial primary key, "media" character varying(255), "price" integer, "created_at" timestamp, "updated_at" timestamp, "title_id" integer) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091103051017')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:12:46) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT "products".* FROM "products" WHERE ("products".title_id = 3) [0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (15.0ms)
+Rendered _list_column_headings (16.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list (63.0ms)
+Completed in 125ms (View: 125, DB: 0) | 200 OK [http://localhost/titles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:13:26) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;36;1mTitle Load (16.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".* FROM "products" WHERE ("products".title_id = 3) [0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (15.0ms)
+Rendered _list_column_headings (15.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (15.0ms)
+Rendered _list (78.0ms)
+Completed in 219ms (View: 203, DB: 16) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit (for 127.0.0.1 at 2009-11-03 14:13:38) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;36;1mTitle Load (15.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+Rendered _horizontal_subform_header (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (15.0ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ((title_id IS NULL)) [0m
+Rendered _form_association_footer (16.0ms)
+Rendered _horizontal_subform (62.0ms)
+Rendered _form_association (94.0ms)
+Rendered _form (234.0ms)
+Rendered _update_form (250.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (0.0ms)
+Completed in 297ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/edit/3?_method=get&adapter=_list_inline_adapter]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit_associated (for 127.0.0.1 at 2009-11-03 14:13:45) [GET]
+  Parameters: {"association"=>"products", "id"=>"3"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendering edit_associated
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+Completed in 79ms (View: 79, DB: 0) | 200 OK [http://localhost/titles/edit_associated/3?association=products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#update (for 127.0.0.1 at 2009-11-03 14:13:50) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E=", "id"=>"3", "record"=>{"name"=>"ターミネーター", "products"=>{"1257225218750"=>{"price"=>"2000", "media"=>"DVD"}, "1257225225656"=>{"price"=>"3000", "media"=>"Blu-Ray"}}, "year"=>"1984"}}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "products" ("price", "created_at", "updated_at", "media", "title_id") VALUES(2000, '2009-11-03 05:13:50.360250', '2009-11-03 05:13:50.360250', E'DVD', 3) RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "products" ("price", "created_at", "updated_at", "media", "title_id") VALUES(3000, '2009-11-03 05:13:50.375250', '2009-11-03 05:13:50.375250', E'Blu-Ray', 3) RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Rendering on_update
+Rendered _messages (0.0ms)
+Completed in 171ms (View: 31, DB: 0) | 200 OK [http://localhost/titles/update/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:13:50) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendered _list_actions (0.0ms)
+Rendered _list_record (15.0ms)
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:14:18) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".* FROM "products" WHERE ("products".title_id = 3) [0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (15.0ms)
+Rendered _list_column_headings (15.0ms)
+Rendered _messages (16.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list (63.0ms)
+Completed in 125ms (View: 125, DB: 0) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:14:48) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT "products".* FROM "products" WHERE ("products".title_id = 3) [0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (0.0ms)
+Rendered _list_column_headings (16.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (16.0ms)
+Rendered _list_record (31.0ms)
+Rendered _list (78.0ms)
+Completed in 125ms (View: 110, DB: 0) | 200 OK [http://localhost/titles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:15:06) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".* FROM "products" WHERE ("products".title_id = 3) [0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (15.0ms)
+Rendered _list_column_headings (16.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list (63.0ms)
+Completed in 125ms (View: 125, DB: 0) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:15:22) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT "products".* FROM "products" WHERE ("products".title_id = 3) [0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (16.0ms)
+Rendered _list_column_headings (15.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (15.0ms)
+Rendered _list (62.0ms)
+Completed in 203ms (View: 203, DB: 0) | 200 OK [http://localhost/titles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#show (for 127.0.0.1 at 2009-11-03 14:15:48) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+Rendered _show_columns (15.0ms)
+Rendered _show (15.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (16.0ms)
+Completed in 62ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/show/3?_method=get&adapter=_list_inline_adapter]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:15:51) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+Rendered _list_actions (16.0ms)
+Rendered _list_record (31.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit (for 127.0.0.1 at 2009-11-03 14:15:52) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+Rendered _horizontal_subform_header (0.0ms)
+Rendered _form_attribute (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (16.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ((title_id IS NULL)) [0m
+Rendered _form_association_footer (16.0ms)
+Rendered _horizontal_subform (188.0ms)
+Rendered _form_association (219.0ms)
+Rendered _form (281.0ms)
+Rendered _update_form (297.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (0.0ms)
+Completed in 343ms (View: 15, DB: 0) | 200 OK [http://localhost/titles/edit/3?_method=get&adapter=_list_inline_adapter]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:16:33) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#show (for 127.0.0.1 at 2009-11-03 14:16:36) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;35;1mTitle Load (16.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+Rendered _show_columns (16.0ms)
+Rendered _show (16.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (16.0ms)
+Completed in 63ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/show/3?_method=get&adapter=_list_inline_adapter]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:16:40) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+Rendered _list_actions (0.0ms)
+Rendered _list_record (109.0ms)
+Completed in 125ms (View: 125, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit (for 127.0.0.1 at 2009-11-03 14:16:42) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+Rendered _horizontal_subform_header (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (16.0ms)
+Rendered _horizontal_subform_record (31.0ms)
+Rendered _form_attribute (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (15.0ms)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ((title_id IS NULL)) [0m
+Rendered _form_association_footer (0.0ms)
+Rendered _horizontal_subform (94.0ms)
+Rendered _form_association (125.0ms)
+Rendered _form (188.0ms)
+Rendered _update_form (219.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (15.0ms)
+Completed in 265ms (View: 15, DB: 0) | 200 OK [http://localhost/titles/edit/3?_method=get&adapter=_list_inline_adapter]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:16:57) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+Rendered _list_actions (16.0ms)
+Rendered _list_record (17.0ms)
+Completed in 64ms (View: 48, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit (for 127.0.0.1 at 2009-11-03 14:16:58) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+Rendered _horizontal_subform_header (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (93.0ms)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ((title_id IS NULL)) [0m
+Rendered _form_association_footer (0.0ms)
+Rendered _horizontal_subform (172.0ms)
+Rendered _form_association (203.0ms)
+Rendered _form (266.0ms)
+Rendered _update_form (297.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (15.0ms)
+Completed in 328ms (View: 15, DB: 0) | 200 OK [http://localhost/titles/edit/3?_method=get&adapter=_list_inline_adapter]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:17:02) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTitles (20091103050219)
+Migrating to CreateProducts (20091103051017)
+Migrating to CreateActors (20091103051757)
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (78.0ms)[0m   [0;1mCREATE TABLE "actors" ("id" serial primary key, "name" character varying(255), "birthday" timestamp, "created_at" timestamp, "updated_at" timestamp) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE TABLE "actors_titles" ("actor_id" integer, "title_id" integer) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091103051757')[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:20:00) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;35;1mProduct Load (16.0ms)[0m   [0mSELECT "products".* FROM "products" WHERE ("products".title_id = 3) [0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (0.0ms)
+Rendered _list_column_headings (15.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (15.0ms)
+Rendered _list_record (31.0ms)
+Rendered _list (78.0ms)
+Completed in 219ms (View: 203, DB: 16) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:20:15) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;35;1mTitle Load (15.0ms)[0m   [0mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT "products".* FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT "actors".*, t0.title_id as the_parent_record_id FROM "actors" INNER JOIN "actors_titles" t0 ON "actors".id = t0.actor_id WHERE (t0.title_id = 3) [0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (0.0ms)
+Rendered _list_column_headings (31.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (15.0ms)
+Rendered _list_record (31.0ms)
+Rendered _list (78.0ms)
+Completed in 140ms (View: 125, DB: 15) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit (for 127.0.0.1 at 2009-11-03 14:20:20) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+Rendered _horizontal_subform_header (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (15.0ms)
+Rendered _horizontal_subform_record (15.0ms)
+Rendered _form_attribute (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ((title_id IS NULL)) [0m
+Rendered _form_association_footer (94.0ms)
+Rendered _horizontal_subform (188.0ms)
+Rendered _form_association (203.0ms)
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+
+ActionView::TemplateError (Could not find ::ActorsController or ::ActorController) on line #18 of vendor/plugins/active_scaffold/frontends/default/views/_form_association.html.erb:
+15: -%>
+16: <h5><%= column.label -%> (<%= link_to_visibility_toggle(:default_visible => !column.collapsed) -%>)</h5>
+17: <div <%= 'style="display: none;"' if column.collapsed -%>>
+18: <%= render :partial => subform_partial_for_column(column), :locals => {:column => column, :parent_record => parent_record, :associated => associated} %>
+19: </div>
+20: <% @record = parent_record -%>
+
+    vendor/plugins/active_scaffold/frontends/default/views/_form_association.html.erb:18
+    vendor/plugins/active_scaffold/frontends/default/views/_form.html.erb:10
+    vendor/plugins/active_scaffold/frontends/default/views/_form.html.erb:2
+    vendor/plugins/active_scaffold/frontends/default/views/_update_form.html.erb:44
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit (for 127.0.0.1 at 2009-11-03 14:21:23) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+Rendered _horizontal_subform_header (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ((title_id IS NULL)) [0m
+Rendered _form_association_footer (16.0ms)
+Rendered _horizontal_subform (110.0ms)
+Rendered _form_association (125.0ms)
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _horizontal_subform_header (0.0ms)
+Rendered _form_attribute (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (31.0ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "actors" [0m
+Rendered _form_association_footer (16.0ms)
+Rendered _horizontal_subform (47.0ms)
+Rendered _form_association (78.0ms)
+Rendered _form (313.0ms)
+Rendered _update_form (328.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (16.0ms)
+Completed in 485ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/edit/3?_method=get&adapter=_list_inline_adapter]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+/!\ FAILSAFE /!\  Tue Nov 03 14:22:41 +0900 2009
+  Status: 500 Internal Server Error
+  /home/tomoya/movies/app/helpers/actor_helper.rb:6: syntax error, unexpected $end, expecting kEND
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /home/tomoya/movies/app/controllers/application_controller.rb:5
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+/!\ FAILSAFE /!\  Tue Nov 03 14:22:45 +0900 2009
+  Status: 500 Internal Server Error
+  /home/tomoya/movies/app/helpers/actor_helper.rb:6: syntax error, unexpected $end, expecting kEND
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /home/tomoya/movies/app/controllers/application_controller.rb:5
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+/!\ FAILSAFE /!\  Tue Nov 03 14:22:47 +0900 2009
+  Status: 500 Internal Server Error
+  /home/tomoya/movies/app/helpers/actor_helper.rb:6: syntax error, unexpected $end, expecting kEND
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /home/tomoya/movies/app/controllers/application_controller.rb:5
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+/!\ FAILSAFE /!\  Tue Nov 03 14:22:52 +0900 2009
+  Status: 500 Internal Server Error
+  /home/tomoya/movies/app/helpers/actor_helper.rb:6: syntax error, unexpected $end, expecting kEND
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /home/tomoya/movies/app/controllers/application_controller.rb:5
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+/!\ FAILSAFE /!\  Tue Nov 03 14:23:13 +0900 2009
+  Status: 500 Internal Server Error
+  /home/tomoya/movies/app/helpers/actor_helper.rb:9: syntax error, unexpected kEND
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /home/tomoya/movies/app/controllers/application_controller.rb:5
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:23:44) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".* FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT "actors".*, t0.title_id as the_parent_record_id FROM "actors" INNER JOIN "actors_titles" t0 ON "actors".id = t0.actor_id WHERE (t0.title_id = 3) [0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (16.0ms)
+Rendered _list_column_headings (31.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (31.0ms)
+Rendered _list_record (47.0ms)
+Rendered _list (109.0ms)
+Completed in 188ms (View: 172, DB: 0) | 200 OK [http://localhost/titles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit (for 127.0.0.1 at 2009-11-03 14:23:46) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;35;1mTitle Load (16.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+Rendered _horizontal_subform_header (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (16.0ms)
+Rendered _horizontal_subform_record (63.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (47.0ms)
+Rendered _form_attribute (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (47.0ms)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ((title_id IS NULL)) [0m
+Rendered _form_association_footer (15.0ms)
+Rendered _horizontal_subform (406.0ms)
+Rendered _form_association (437.0ms)
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _horizontal_subform_header (15.0ms)
+Rendered _form_attribute (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (32.0ms)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "actors" [0m
+Rendered _form_association_footer (15.0ms)
+Rendered _horizontal_subform (62.0ms)
+Rendered _form_association (78.0ms)
+Rendered _form (625.0ms)
+Rendered _update_form (640.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (0.0ms)
+Completed in 688ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/edit/3?_method=get&adapter=_list_inline_adapter]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+/!\ FAILSAFE /!\  Tue Nov 03 14:24:21 +0900 2009
+  Status: 500 Internal Server Error
+  /home/tomoya/movies/app/helpers/actor_helper.rb:9: syntax error, unexpected kEND
+  end	    
+     ^
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /home/tomoya/movies/app/controllers/application_controller.rb:5
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:24:28) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _list_actions (0.0ms)
+Rendered _list_record (31.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:24:28) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTitle Load (16.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _list_actions (0.0ms)
+Rendered _list_record (31.0ms)
+Completed in 156ms (View: 140, DB: 32) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit (for 127.0.0.1 at 2009-11-03 14:24:30) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+Rendered _horizontal_subform_header (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (16.0ms)
+Rendered _horizontal_subform_record (32.0ms)
+Rendered _form_attribute (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ((title_id IS NULL)) [0m
+Rendered _form_association_footer (15.0ms)
+Rendered _horizontal_subform (93.0ms)
+Rendered _form_association (125.0ms)
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _horizontal_subform_header (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (31.0ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "actors" [0m
+Rendered _form_association_footer (16.0ms)
+Rendered _horizontal_subform (47.0ms)
+Rendered _form_association (79.0ms)
+Rendered _form (407.0ms)
+Rendered _update_form (422.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (15.0ms)
+Completed in 453ms (View: 15, DB: 0) | 200 OK [http://localhost/titles/edit/3?_method=get&adapter=_list_inline_adapter]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:25:07) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _list_actions (15.0ms)
+Rendered _list_record (31.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit (for 127.0.0.1 at 2009-11-03 14:25:09) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendered _form_attribute (16.0ms)
+Rendered _form_attribute (0.0ms)
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+Rendered _horizontal_subform_header (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ((title_id IS NULL)) [0m
+Rendered _form_association_footer (0.0ms)
+Rendered _horizontal_subform (93.0ms)
+Rendered _form_association (125.0ms)
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _horizontal_subform_header (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "actors" [0m
+Rendered _form_association_footer (15.0ms)
+Rendered _horizontal_subform (46.0ms)
+Rendered _form_association (62.0ms)
+Rendered _form (406.0ms)
+Rendered _update_form (421.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (16.0ms)
+Completed in 469ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/edit/3?_method=get&adapter=_list_inline_adapter]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit_associated (for 127.0.0.1 at 2009-11-03 14:25:35) [GET]
+  Parameters: {"association"=>"actors", "id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendering edit_associated
+Rendered _form_attribute (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (32.0ms)
+Completed in 109ms (View: 93, DB: 0) | 200 OK [http://localhost/titles/edit_associated/3?association=actors]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#update (for 127.0.0.1 at 2009-11-03 14:25:37) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E=", "id"=>"3", "record"=>{"name"=>"ターミネーター", "actors"=>{"1257225935488"=>{"name"=>"", "birthday(1i)"=>"2009", "birthday(2i)"=>"11", "birthday(3i)"=>"3"}, "1257225910128"=>{"name"=>"アーノルド=シュワルツェネッガー", "birthday(1i)"=>"1947", "birthday(2i)"=>"7", "birthday(3i)"=>"30"}}, "products"=>{"1257225910003"=>{"price"=>"", "media"=>""}, "1"=>{"price"=>"2000", "id"=>"1", "media"=>"DVD"}, "2"=>{"price"=>"3000", "id"=>"2", "media"=>"Blu-Ray"}}, "year"=>"1984"}}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mActor Load (16.0ms)[0m   [0;1mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+  [4;35;1mSQL (16.0ms)[0m   [0mINSERT INTO "actors" ("name", "created_at", "updated_at", "birthday") VALUES(E'アーノルド=シュワルツェネッガー', '2009-11-03 05:25:37.972250', '2009-11-03 05:25:37.972250', '1947-07-30 00:00:00.000000') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "actors_titles" ("actor_id", "title_id") VALUES (1, 3)[0m
+  [4;35;1mSQL (93.0ms)[0m   [0mCOMMIT[0m
+Rendering on_update
+Rendered _messages (0.0ms)
+Completed in 204ms (View: 32, DB: 125) | 200 OK [http://localhost/titles/update/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:25:38) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _list_actions (15.0ms)
+Rendered _list_record (31.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:26:21) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;36;1mProduct Load (16.0ms)[0m   [0;1mSELECT "products".* FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT "actors".*, t0.title_id as the_parent_record_id FROM "actors" INNER JOIN "actors_titles" t0 ON "actors".id = t0.actor_id WHERE (t0.title_id = 3) [0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (0.0ms)
+Rendered _list_column_headings (31.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list (62.0ms)
+Completed in 141ms (View: 125, DB: 31) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit (for 127.0.0.1 at 2009-11-03 14:26:29) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+Rendered _horizontal_subform_header (0.0ms)
+Rendered _form_attribute (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (31.0ms)
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ((title_id IS NULL)) [0m
+Rendered _form_association_footer (15.0ms)
+Rendered _horizontal_subform (109.0ms)
+Rendered _form_association (140.0ms)
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _horizontal_subform_header (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (15.0ms)
+Rendered _horizontal_subform_record (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (16.0ms)
+Rendered _horizontal_subform_record (32.0ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "actors" [0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" [0m
+Rendered _form_association_footer (0.0ms)
+Rendered _horizontal_subform (78.0ms)
+Rendered _form_association (94.0ms)
+Rendered _form (422.0ms)
+Rendered _update_form (437.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (16.0ms)
+Completed in 485ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/edit/3?_method=get&adapter=_list_inline_adapter]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:26:37) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _list_actions (15.0ms)
+Rendered _list_record (31.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit (for 127.0.0.1 at 2009-11-03 14:27:13) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 3) [0m
+Rendered _horizontal_subform_header (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ((title_id IS NULL)) [0m
+Rendered _form_association_footer (15.0ms)
+Rendered _horizontal_subform (109.0ms)
+Rendered _form_association (140.0ms)
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _horizontal_subform_header (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (15.0ms)
+Rendered _horizontal_subform_record (15.0ms)
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "actors" [0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" [0m
+Rendered _form_association_footer (16.0ms)
+Rendered _horizontal_subform (78.0ms)
+Rendered _form_association (94.0ms)
+Rendered _form (453.0ms)
+Rendered _update_form (469.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (0.0ms)
+Completed in 500ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/edit/3?_method=get&adapter=_list_inline_adapter]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:27:20) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _list_actions (15.0ms)
+Rendered _list_record (31.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#new (for 127.0.0.1 at 2009-11-03 14:27:23) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter"}
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_header (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (110.0ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ((title_id IS NULL)) [0m
+Rendered _form_association_footer (16.0ms)
+Rendered _horizontal_subform (156.0ms)
+Rendered _form_association (187.0ms)
+Rendered _horizontal_subform_header (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (16.0ms)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "actors" [0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT * FROM "actors" [0m
+Rendered _form_association_footer (15.0ms)
+Rendered _horizontal_subform (46.0ms)
+Rendered _form_association (62.0ms)
+Rendered _form (375.0ms)
+Rendered _create_form (390.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (16.0ms)
+Completed in 438ms (View: 32, DB: 0) | 200 OK [http://localhost/titles/new?_method=get&adapter=_list_inline_adapter]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit_associated (for 127.0.0.1 at 2009-11-03 14:27:34) [GET]
+  Parameters: {"association"=>"products"}
+Rendering edit_associated
+Rendered _form_attribute (0.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (32.0ms)
+Completed in 94ms (View: 78, DB: 0) | 200 OK [http://localhost/titles/edit_associated?association=products]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#edit_associated (for 127.0.0.1 at 2009-11-03 14:27:46) [GET]
+  Parameters: {"association"=>"actors", "associated_id"=>"1"}
+  [4;35;1mActor Load (15.0ms)[0m   [0mSELECT * FROM "actors" WHERE ("actors"."id" = 1) [0m
+Rendering edit_associated
+Rendered _form_attribute (15.0ms)
+Rendered _form_attribute (0.0ms)
+Rendered _horizontal_subform_record (31.0ms)
+Completed in 93ms (View: 78, DB: 15) | 200 OK [http://localhost/titles/edit_associated?associated_id=1&association=actors]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#create (for 127.0.0.1 at 2009-11-03 14:27:49) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E=", "associated_id"=>"1", "record"=>{"name"=>"ターミネーター２", "actors"=>{"1257226044254"=>{"name"=>"", "birthday(1i)"=>"2009", "birthday(2i)"=>"11", "birthday(3i)"=>"3"}, "1"=>{"name"=>"アーノルド=シュワルツェネッガー", "birthday(1i)"=>"1947", "birthday(2i)"=>"7", "birthday(3i)"=>"30", "id"=>"1"}}, "products"=>{"1257226044035"=>{"price"=>"2000", "media"=>"DVD"}, "1257226054989"=>{"price"=>"3000", "media"=>"Blu-Ray"}}, "year"=>"1991"}}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" WHERE ("actors"."id" = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "titles" ("name", "created_at", "updated_at", "year") VALUES(E'ターミネーター２', '2009-11-03 05:27:49.192250', '2009-11-03 05:27:49.192250', 1991) RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "products" ("price", "created_at", "updated_at", "media", "title_id") VALUES(2000, '2009-11-03 05:27:49.192250', '2009-11-03 05:27:49.192250', E'DVD', 4) RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "products" ("price", "created_at", "updated_at", "media", "title_id") VALUES(3000, '2009-11-03 05:27:49.192250', '2009-11-03 05:27:49.192250', E'Blu-Ray', 4) RETURNING "id"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "actors_titles" ("actor_id", "title_id") VALUES (1, 4)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Rendering on_create
+Rendered _list_actions (16.0ms)
+Rendered _list_record (16.0ms)
+Rendered _messages (0.0ms)
+Completed in 234ms (View: 62, DB: 0) | 200 OK [http://localhost/titles/create]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#nested (for 127.0.0.1 at 2009-11-03 14:27:57) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3", "associations"=>"actors"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+
+ActionView::TemplateError (undefined method `render_component' for #<ActionView::Base:0x7f2d3140>) on line #39 of vendor/plugins/active_scaffold/frontends/default/views/_nested.html.erb:
+36:           :constraints => @constraints,
+37:           :conditions => association.options[:conditions],
+38:           :label => h(@label),
+39:           :params => {:nested => true, :parent_column => column_name, :parent_model => association.active_record}
+40:         )
+41:       end
+42:     end
+
+    vendor/plugins/active_scaffold/frontends/default/views/_nested.html.erb:39
+    vendor/plugins/active_scaffold/frontends/default/views/_nested.html.erb:11:in `each'
+    vendor/plugins/active_scaffold/frontends/default/views/_nested.html.erb:11
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#nested (for 127.0.0.1 at 2009-11-03 14:28:30) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"4", "associated_id"=>"1", "associations"=>"actors"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 4) [0m
+
+ActionView::TemplateError (undefined method `render_component' for #<ActionView::Base:0x7f03e4ac>) on line #39 of vendor/plugins/active_scaffold/frontends/default/views/_nested.html.erb:
+36:           :constraints => @constraints,
+37:           :conditions => association.options[:conditions],
+38:           :label => h(@label),
+39:           :params => {:nested => true, :parent_column => column_name, :parent_model => association.active_record}
+40:         )
+41:       end
+42:     end
+
+    vendor/plugins/active_scaffold/frontends/default/views/_nested.html.erb:39
+    vendor/plugins/active_scaffold/frontends/default/views/_nested.html.erb:11:in `each'
+    vendor/plugins/active_scaffold/frontends/default/views/_nested.html.erb:11
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:29:05) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT "products".* FROM "products" WHERE ("products".title_id IN (3,4)) [0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT "actors".*, t0.title_id as the_parent_record_id FROM "actors" INNER JOIN "actors_titles" t0 ON "actors".id = t0.actor_id WHERE (t0.title_id IN (3,4)) [0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (16.0ms)
+Rendered _list_column_headings (32.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (16.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (0.0ms)
+Rendered _list (93.0ms)
+Completed in 562ms (View: 140, DB: 0) | 200 OK [http://localhost/titles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#nested (for 127.0.0.1 at 2009-11-03 14:29:07) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3", "associations"=>"actors"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Start rendering component ({:controller=>"actor", :params=>{:nested=>true, :parent_model=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime), :parent_column=>"actors", :eid=>"e2de192244e5f04af46ac142354e01b2"}, :action=>"table"}): 
+
+
+Processing ActorController#table (for 127.0.0.1 at 2009-11-03 14:29:07) [GET]
+  Parameters: {"parent_column"=>"actors", "eid"=>"e2de192244e5f04af46ac142354e01b2", "nested"=>true, "id"=>nil, "parent_model"=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime)}
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "actors" INNER JOIN "actors_titles" ON "actors_titles".actor_id = "actors".id INNER JOIN "titles" ON "titles".id = "actors_titles".title_id WHERE (((actors_titles.title_id = E'3'))) [0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT "actors".* FROM "actors" INNER JOIN "actors_titles" ON "actors_titles".actor_id = "actors".id INNER JOIN "titles" ON "titles".id = "actors_titles".title_id WHERE (((actors_titles.title_id = E'3'))) ORDER BY actors."id" ASC LIMIT 15 OFFSET 0[0m
+Rendering list
+Rendered _list_header (15.0ms)
+Rendered _list_column_headings (15.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (15.0ms)
+Rendered _list_record (734.0ms)
+Rendered _list (781.0ms)
+Completed in 828ms (View: 828, DB: 0) | 200 OK [http://localhost/titles/nested/3?_method=get&associations=actors&adapter=_list_inline_adapter]
+
+
+End of component rendering
+Rendered _nested (906.0ms)
+Rendered _messages (16.0ms)
+Rendered _list_inline_adapter (16.0ms)
+Completed in 969ms (View: 32, DB: 0) | 200 OK [http://localhost/titles/nested/3?_method=get&associations=actors&adapter=_list_inline_adapter]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:29:22) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _list_actions (0.0ms)
+Rendered _list_record (32.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#nested (for 127.0.0.1 at 2009-11-03 14:30:02) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"4", "associations"=>"actors"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 4) [0m
+Start rendering component ({:controller=>"actor", :params=>{:nested=>true, :parent_model=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime), :parent_column=>"actors", :eid=>"e550b7ac74f8cca2847298b59c9e78dc"}, :action=>"table"}): 
+
+
+Processing ActorController#table (for 127.0.0.1 at 2009-11-03 14:30:02) [GET]
+  Parameters: {"parent_column"=>"actors", "eid"=>"e550b7ac74f8cca2847298b59c9e78dc", "nested"=>true, "id"=>nil, "parent_model"=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime)}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "actors" INNER JOIN "actors_titles" ON "actors_titles".actor_id = "actors".id INNER JOIN "titles" ON "titles".id = "actors_titles".title_id WHERE (((actors_titles.title_id = E'4'))) [0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT "actors".* FROM "actors" INNER JOIN "actors_titles" ON "actors_titles".actor_id = "actors".id INNER JOIN "titles" ON "titles".id = "actors_titles".title_id WHERE (((actors_titles.title_id = E'4'))) ORDER BY actors."id" ASC LIMIT 15 OFFSET 0[0m
+Rendering list
+Rendered _list_header (16.0ms)
+Rendered _list_column_headings (31.0ms)
+Rendered _messages (0.0ms)
+
+ActionView::TemplateError (undefined method `irthday' for #<Actor:0x7f004770>) on line #11 of vendor/plugins/active_scaffold/frontends/default/views/_list_record.html.erb:
+8: 
+9: <tr class="record <%= tr_class %>" id="<%= element_row_id(:action => :list, :id => record.id) %>">
+10:   <% active_scaffold_config.list.columns.each do |column| %>
+11:     <% column_value = get_column_value(record, column) -%>
+12: 
+13:     <td class="<%= column_class(column, column_value) %>" >
+14:       <%= record.authorized_for?(:action => :read, :column => column.name) ? render_list_column(column_value, column, record) : '' %>
+
+    app/helpers/actor_helper.rb:11:in `birthday_column'
+    vendor/plugins/active_scaffold/frontends/default/views/_list_record.html.erb:11
+    vendor/plugins/active_scaffold/frontends/default/views/_list_record.html.erb:10
+    vendor/plugins/active_scaffold/frontends/default/views/_list.html.erb:24
+    vendor/plugins/active_scaffold/frontends/default/views/list.html.erb:30
+    vendor/plugins/active_scaffold/frontends/default/views/_nested.html.erb:39
+    vendor/plugins/active_scaffold/frontends/default/views/_nested.html.erb:11:in `each'
+    vendor/plugins/active_scaffold/frontends/default/views/_nested.html.erb:11
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (219.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+End of component rendering
+Rendered _nested (719.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (16.0ms)
+Completed in 750ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/nested/4?_method=get&associations=actors&adapter=_list_inline_adapter]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#nested (for 127.0.0.1 at 2009-11-03 14:30:11) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3", "associations"=>"actors"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Start rendering component ({:controller=>"actor", :params=>{:nested=>true, :parent_model=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime), :parent_column=>"actors", :eid=>"e2de192244e5f04af46ac142354e01b2"}, :action=>"table"}): 
+
+
+Processing ActorController#table (for 127.0.0.1 at 2009-11-03 14:30:11) [GET]
+  Parameters: {"parent_column"=>"actors", "eid"=>"e2de192244e5f04af46ac142354e01b2", "nested"=>true, "id"=>nil, "parent_model"=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime)}
+  [4;35;1mSQL (15.0ms)[0m   [0mSELECT count(*) AS count_all FROM "actors" INNER JOIN "actors_titles" ON "actors_titles".actor_id = "actors".id INNER JOIN "titles" ON "titles".id = "actors_titles".title_id WHERE (((actors_titles.title_id = E'3'))) [0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT "actors".* FROM "actors" INNER JOIN "actors_titles" ON "actors_titles".actor_id = "actors".id INNER JOIN "titles" ON "titles".id = "actors_titles".title_id WHERE (((actors_titles.title_id = E'3'))) ORDER BY actors."id" ASC LIMIT 15 OFFSET 0[0m
+Rendering list
+Rendered _list_header (16.0ms)
+Rendered _list_column_headings (32.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list (156.0ms)
+Completed in 203ms (View: 188, DB: 15) | 200 OK [http://localhost/titles/nested/3?_method=get&associations=actors&adapter=_list_inline_adapter]
+
+
+End of component rendering
+Rendered _nested (281.0ms)
+Rendered _messages (15.0ms)
+Rendered _list_inline_adapter (15.0ms)
+Completed in 344ms (View: 31, DB: 0) | 200 OK [http://localhost/titles/nested/3?_method=get&associations=actors&adapter=_list_inline_adapter]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#index (for 127.0.0.1 at 2009-11-03 14:30:14) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;36;1mTitle Load (16.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."id" ASC LIMIT 15 OFFSET 0[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".* FROM "products" WHERE ("products".title_id IN (3,4)) [0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT "actors".*, t0.title_id as the_parent_record_id FROM "actors" INNER JOIN "actors_titles" t0 ON "actors".id = t0.actor_id WHERE (t0.title_id IN (3,4)) [0m
+Rendering template within layouts/titles
+Rendering list
+Rendered _list_header (0.0ms)
+Rendered _list_column_headings (15.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (15.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list (78.0ms)
+Completed in 157ms (View: 141, DB: 16) | 200 OK [http://localhost/titles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#nested (for 127.0.0.1 at 2009-11-03 14:30:16) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"4", "associations"=>"actors"}
+  [4;35;1mTitle Load (16.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 4) [0m
+Start rendering component ({:controller=>"actor", :params=>{:nested=>true, :parent_model=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime), :parent_column=>"actors", :eid=>"e550b7ac74f8cca2847298b59c9e78dc"}, :action=>"table"}): 
+
+
+Processing ActorController#table (for 127.0.0.1 at 2009-11-03 14:30:16) [GET]
+  Parameters: {"parent_column"=>"actors", "eid"=>"e550b7ac74f8cca2847298b59c9e78dc", "nested"=>true, "id"=>nil, "parent_model"=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime)}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "actors" INNER JOIN "actors_titles" ON "actors_titles".actor_id = "actors".id INNER JOIN "titles" ON "titles".id = "actors_titles".title_id WHERE (((actors_titles.title_id = E'4'))) [0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT "actors".* FROM "actors" INNER JOIN "actors_titles" ON "actors_titles".actor_id = "actors".id INNER JOIN "titles" ON "titles".id = "actors_titles".title_id WHERE (((actors_titles.title_id = E'4'))) ORDER BY actors."id" ASC LIMIT 15 OFFSET 0[0m
+Rendering list
+Rendered _list_header (0.0ms)
+Rendered _list_column_headings (31.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list (63.0ms)
+Completed in 125ms (View: 110, DB: 0) | 200 OK [http://localhost/titles/nested/4?_method=get&associations=actors&adapter=_list_inline_adapter]
+
+
+End of component rendering
+Rendered _nested (203.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (0.0ms)
+Completed in 250ms (View: 15, DB: 0) | 200 OK [http://localhost/titles/nested/4?_method=get&associations=actors&adapter=_list_inline_adapter]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#nested (for 127.0.0.1 at 2009-11-03 14:30:23) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"4", "associations"=>"products"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 4) [0m
+Start rendering component ({:controller=>"product", :params=>{:nested=>true, :parent_model=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime), :parent_column=>"products", :eid=>"33069fb20341f607863aafec14a73e5d"}, :action=>"table"}): 
+
+
+Processing ProductController#table (for 127.0.0.1 at 2009-11-03 14:30:23) [GET]
+  Parameters: {"parent_column"=>"products", "eid"=>"33069fb20341f607863aafec14a73e5d", "nested"=>true, "id"=>nil, "parent_model"=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime)}
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE (((products.title_id = E'4'))) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT "products".* FROM "products" WHERE (((products.title_id = E'4'))) ORDER BY products."id" ASC LIMIT 15 OFFSET 0[0m
+Rendering list
+Rendered _list_header (0.0ms)
+Rendered _list_column_headings (31.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list_actions (15.0ms)
+Rendered _list_record (15.0ms)
+Rendered _list (78.0ms)
+Completed in 140ms (View: 125, DB: 0) | 200 OK [http://localhost/titles/nested/4?_method=get&associations=products&adapter=_list_inline_adapter]
+
+
+End of component rendering
+Rendered _nested (219.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (0.0ms)
+Completed in 266ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/nested/4?_method=get&associations=products&adapter=_list_inline_adapter]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:31:23) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 4) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 4) [0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 4) LIMIT 4[0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 4 ) [0m
+Rendered _list_actions (0.0ms)
+Rendered _list_record (31.0ms)
+Completed in 328ms (View: 312, DB: 0) | 200 OK [http://localhost/titles/row/4?_method=get]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#nested (for 127.0.0.1 at 2009-11-03 14:31:25) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"4", "associations"=>"products"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 4) [0m
+Start rendering component ({:controller=>"product", :params=>{:nested=>true, :parent_model=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime), :parent_column=>"products", :eid=>"33069fb20341f607863aafec14a73e5d"}, :action=>"table"}): 
+
+
+Processing ProductController#table (for 127.0.0.1 at 2009-11-03 14:31:25) [GET]
+  Parameters: {"parent_column"=>"products", "eid"=>"33069fb20341f607863aafec14a73e5d", "nested"=>true, "id"=>nil, "parent_model"=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime)}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE (((products.title_id = E'4'))) [0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".* FROM "products" WHERE (((products.title_id = E'4'))) ORDER BY products."id" ASC LIMIT 15 OFFSET 0[0m
+Rendering list
+Rendered _list_header (0.0ms)
+Rendered _list_column_headings (31.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (15.0ms)
+Rendered _list (78.0ms)
+Completed in 125ms (View: 125, DB: 0) | 200 OK [http://localhost/titles/nested/4?_method=get&associations=products&adapter=_list_inline_adapter]
+
+
+End of component rendering
+Rendered _nested (219.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (0.0ms)
+Completed in 266ms (View: 16, DB: 0) | 200 OK [http://localhost/titles/nested/4?_method=get&associations=products&adapter=_list_inline_adapter]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:31:30) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 4) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 4) [0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products".title_id = 4) LIMIT 4[0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 4 ) [0m
+Rendered _list_actions (0.0ms)
+Rendered _list_record (31.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/titles/row/4?_method=get]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-03 14:32:47) [GET]
+
+ActionController::RoutingError (No route matches "/products" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-03 14:33:02) [GET]
+
+ActionController::RoutingError (No route matches "/actors" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-03 14:33:45) [GET]
+
+ActionController::RoutingError (No route matches "/actors/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-03 14:33:51) [GET]
+
+ActionController::RoutingError (No route matches "/products" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#nested (for 127.0.0.1 at 2009-11-03 14:33:55) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"3", "associations"=>"actors"}
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+Start rendering component ({:controller=>"actor", :params=>{:nested=>true, :parent_model=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime), :parent_column=>"actors", :eid=>"e2de192244e5f04af46ac142354e01b2"}, :action=>"table"}): 
+
+
+Processing ActorController#table (for 127.0.0.1 at 2009-11-03 14:33:55) [GET]
+  Parameters: {"parent_column"=>"actors", "eid"=>"e2de192244e5f04af46ac142354e01b2", "nested"=>true, "id"=>nil, "parent_model"=>Title(id: integer, name: string, year: integer, created_at: datetime, updated_at: datetime)}
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "actors" INNER JOIN "actors_titles" ON "actors_titles".actor_id = "actors".id INNER JOIN "titles" ON "titles".id = "actors_titles".title_id WHERE (((actors_titles.title_id = E'3'))) [0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT "actors".* FROM "actors" INNER JOIN "actors_titles" ON "actors_titles".actor_id = "actors".id INNER JOIN "titles" ON "titles".id = "actors_titles".title_id WHERE (((actors_titles.title_id = E'3'))) ORDER BY actors."id" ASC LIMIT 15 OFFSET 0[0m
+Rendering list
+Rendered _list_header (16.0ms)
+Rendered _list_column_headings (16.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list (78.0ms)
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://localhost/titles/nested/3?_method=get&associations=actors&adapter=_list_inline_adapter]
+
+
+End of component rendering
+Rendered _nested (297.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_inline_adapter (15.0ms)
+Completed in 343ms (View: 15, DB: 0) | 200 OK [http://localhost/titles/nested/3?_method=get&associations=actors&adapter=_list_inline_adapter]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#row (for 127.0.0.1 at 2009-11-03 14:34:24) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 3) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ("products".title_id = 3) [0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products".title_id = 3) LIMIT 4[0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 3 ) [0m
+Rendered _list_actions (16.0ms)
+Rendered _list_record (31.0ms)
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/titles/row/3?_method=get]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#update_table (for 127.0.0.1 at 2009-11-03 14:34:32) [GET]
+  Parameters: {"authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E=", "page"=>"1", "sort"=>"year", "sort_direction"=>"ASC"}
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."year" ASC LIMIT 15 OFFSET 0[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".* FROM "products" WHERE ("products".title_id IN (3,4)) [0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT "actors".*, t0.title_id as the_parent_record_id FROM "actors" INNER JOIN "actors_titles" t0 ON "actors".id = t0.actor_id WHERE (t0.title_id IN (3,4)) [0m
+Rendered _list_column_headings (31.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (15.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list (94.0ms)
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://localhost/titles/update_table?page=1&sort=year&sort_direction=ASC&authenticity_token=xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E%3D]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#update_table (for 127.0.0.1 at 2009-11-03 14:34:33) [GET]
+  Parameters: {"authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E=", "page"=>"1", "sort"=>"year", "sort_direction"=>"DESC"}
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."year" DESC LIMIT 15 OFFSET 0[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".* FROM "products" WHERE ("products".title_id IN (4,3)) [0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT "actors".*, t0.title_id as the_parent_record_id FROM "actors" INNER JOIN "actors_titles" t0 ON "actors".id = t0.actor_id WHERE (t0.title_id IN (4,3)) [0m
+Rendered _list_column_headings (31.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (15.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list (78.0ms)
+Completed in 109ms (View: 94, DB: 0) | 200 OK [http://localhost/titles/update_table?page=1&sort=year&sort_direction=DESC&authenticity_token=xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E%3D]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#update_table (for 127.0.0.1 at 2009-11-03 14:34:34) [GET]
+  Parameters: {"authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E=", "page"=>"1", "sort"=>"name", "sort_direction"=>"ASC"}
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."name" ASC LIMIT 15 OFFSET 0[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".* FROM "products" WHERE ("products".title_id IN (3,4)) [0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT "actors".*, t0.title_id as the_parent_record_id FROM "actors" INNER JOIN "actors_titles" t0 ON "actors".id = t0.actor_id WHERE (t0.title_id IN (3,4)) [0m
+Rendered _list_column_headings (32.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (16.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list_actions (15.0ms)
+Rendered _list_record (15.0ms)
+Rendered _list (93.0ms)
+Completed in 218ms (View: 109, DB: 0) | 200 OK [http://localhost/titles/update_table?page=1&sort=name&sort_direction=ASC&authenticity_token=xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E%3D]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#update_table (for 127.0.0.1 at 2009-11-03 14:34:35) [GET]
+  Parameters: {"authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E=", "page"=>"1", "sort"=>"name", "sort_direction"=>"DESC"}
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "titles" [0m
+  [4;36;1mTitle Load (0.0ms)[0m   [0;1mSELECT "titles".* FROM "titles" ORDER BY titles."name" DESC LIMIT 15 OFFSET 0[0m
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT "products".* FROM "products" WHERE ("products".title_id IN (4,3)) [0m
+  [4;36;1mActor Load (0.0ms)[0m   [0;1mSELECT "actors".*, t0.title_id as the_parent_record_id FROM "actors" INNER JOIN "actors_titles" t0 ON "actors".id = t0.actor_id WHERE (t0.title_id IN (4,3)) [0m
+Rendered _list_column_headings (31.0ms)
+Rendered _messages (0.0ms)
+Rendered _list_actions (0.0ms)
+Rendered _list_record (15.0ms)
+Rendered _list_actions (16.0ms)
+Rendered _list_record (16.0ms)
+Rendered _list (94.0ms)
+Completed in 125ms (View: 109, DB: 0) | 200 OK [http://localhost/titles/update_table?page=1&sort=name&sort_direction=DESC&authenticity_token=xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E%3D]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing TitlesController#destroy (for 127.0.0.1 at 2009-11-03 14:34:43) [DELETE]
+  Parameters: {"authenticity_token"=>"xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E=", "id"=>"4"}
+  [4;35;1mTitle Load (0.0ms)[0m   [0mSELECT * FROM "titles" WHERE ("titles"."id" = 4) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mActor Load (0.0ms)[0m   [0mSELECT * FROM "actors" INNER JOIN "actors_titles" ON "actors".id = "actors_titles".actor_id WHERE ("actors_titles".title_id = 4 ) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mDELETE FROM "actors_titles" WHERE title_id = 4 AND actor_id IN (1)[0m
+  [4;35;1mTitle Destroy (0.0ms)[0m   [0mDELETE FROM "titles" WHERE "id" = 4[0m
+  [4;36;1mSQL (32.0ms)[0m   [0;1mCOMMIT[0m
+Rendering destroy
+Rendered _messages (0.0ms)
+Completed in 172ms (View: 47, DB: 32) | 200 OK [http://localhost/titles/destroy/4?_method=delete&authenticity_token=xe8NvT4xKGy7MRX39huknfQ9CCaazaPpF7y6lxARG1E%3D]

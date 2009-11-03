@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  media: MyString
+  price: 1
+
+two:
+  media: MyString
+  price: 1
